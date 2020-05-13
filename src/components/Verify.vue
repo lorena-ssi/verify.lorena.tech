@@ -33,13 +33,6 @@
 <script>
 export default {
   created () {
-    fetch('https://labtest.ipfs.lorena.tech/api/v0/dag/resolve?arg=bafyreiegi4p5fg65chx67gkppk2zcded7smfe6lgestf44wcqyiuxicriu', {
-      method: 'GET'
-    }).then((res) => {
-      return res.text()
-    }).then(json => {
-      console.log('GET response', json)
-    })
   },
   data: function () {
     return {
