@@ -1,5 +1,7 @@
 # verify.lorena.tech
 
+[![Build Status](https://travis-ci.com/lorena-ssi/verify.lorena.tech.svg?branch=master)](https://travis-ci.com/lorena-ssi/verify.lorena.tech)
+
 ## Project setup
 ```
 npm install
